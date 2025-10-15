@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+
+# Python/R data artifacts (if any)
+*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS/temporary files
+*.tmp
+*.log
+
+# Node
+node_modules/
+
+
