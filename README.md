@@ -18,6 +18,7 @@ README.md      # This guide
 ### Add your CSV
 1. Copy your CSV file(s) into the `data/` folder.
 2. (Optional) If a CSV is very large (>100 MB), Git LFS will handle it automatically.
+3. If you want to preview or clean your CSVs, you can use spreadsheet tools or Python/R notebooks locally—no tooling is required in this repo.
 
 ### Initialize locally and push to GitHub
 Follow these steps in your terminal after you add your CSVs:
@@ -25,6 +26,7 @@ Follow these steps in your terminal after you add your CSVs:
 ```bash
 # From the repo root
 git init
+git lfs install
 git add .
 git commit -m "Initial commit: add data and repo scaffold"
 
